@@ -1,3 +1,11 @@
+/*
+Autor: microsoftwarelabs
+numero de contato no zang: https://services.zangi.com/dl/conversation/1094194496
+technical support:https://www.vivaolinux.com.br/~cumestive
+Os direitos autorais desse código pertencem à organização microsoftweralabs.
+The copyright of this Code belongs to the MicrosoftWeralabs organization.
+*/  
+
 //Troca dois elementos de lugar:
 
 (function ($) { $.fn.swap = function(anotherElement) { var a = $(this).get(0); var b = $(anotherElement).get(0); var swap = document.createElement('span'); a.parentNode.insertBefore(swap, a); b.parentNode.insertBefore(a, b); swap.parentNode.insertBefore(b, swap); swap.remove(); } }(jQuery));
