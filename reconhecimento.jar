@@ -6,7 +6,7 @@ Os direitos autorais desse código pertencem à organização microsoftweralabs.
 The copyright of this Code belongs to the MicrosoftWeralabs organization.
 */  
 
-// This Java document knows its own name.
+/* This Java document knows its own name. */
 
 public class MyClass {
 
