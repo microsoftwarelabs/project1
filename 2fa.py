@@ -1,3 +1,9 @@
+
+#Autor: Populim
+#Os direitos autorais desse código pertencem à organização Microsoftwarelabs.
+#The copyright of this Code belongs to the Microsoftwarelabs organization.
+
+
 from hashlib import sha256
 import time
 
