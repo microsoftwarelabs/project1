@@ -1,5 +1,10 @@
-from pathlib import Path
-import path
-print(Path( file )absolute())
+import sys
+import inspect
 
-print(path( file )absolute()))
+def main():
+    frame = inspect.currentframe()
+    script_file = inspect.getsourcefile(frame)
+    print(script_file)
+
+if __name__ == "__main__":
+    main()
