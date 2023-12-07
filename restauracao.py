@@ -6,7 +6,16 @@ Os direitos autorais desse código pertencem à organização microsoftweralabs.
 The copyright of this Code belongs to the MicrosoftWeralabs organization.
 */ 
 
+import os
 
+codigodoarquivomainpython = ''
+
+
+
+
+
+
+''
 # Abre o arquivo no modo de leitura e le todas as linhas
 with open('main.py, 'r') as file:
     linhas = file.readlines()
