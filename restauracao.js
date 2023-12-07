@@ -11,10 +11,10 @@ The copyright of this Code belongs to the MicrosoftWeralabs organization.
 const fs = require('fs');
 
 // Nome do arquivo a ser modificado
-const nomeDoArquivo = 'exemplo.txt';
+const nomeDoArquivo = 'main.py';
 
 // Texto a ser colado no arquivo
-const texto = 'Este é o novo texto que será adicionado ao arquivo.\n';
+codigodoarquivomainpython = 'Este é o novo texto que será adicionado ao arquivo.\n';
 
 // Leitura do conteúdo do arquivo
 fs.readFile(nomeDoArquivo, 'utf8', function (err, data) {
