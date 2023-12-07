@@ -8,11 +8,21 @@ The copyright of this Code belongs to the MicrosoftWeralabs organization.
 
 import difflib
 
+# Importe o módulo os para lidar com caminhos de arquivos
+
+import os
+
+# Obtenha o caminho do diretório atual
+caminho_atual = os.path.dirname(__file__)
+
+# Nome do arquivo que você quer ler
+codigodoarquivomainpython = "main.py"
+
+# Caminho completo do arquivo
+caminho_completo = os.path.join(caminho_atual, nome_arquivo)
+
 # Duas strings de códigos para comparação
-codigo1 = '''
-def soma(a, b):
-    return a + b
-'''
+codigo1 = codigodoarquivomainpython
 
 codigo2 = '''
 def soma(a, b):
