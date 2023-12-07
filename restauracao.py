@@ -8,13 +8,13 @@ The copyright of this Code belongs to the MicrosoftWeralabs organization.
 
 
 # Abre o arquivo no modo de leitura e le todas as linhas
-with open('seu_arquivo.txt', 'r') as file:
+with open('main.py, 'r') as file:
     linhas = file.readlines()
 
 # Adiciona o texto desejado ao final da lista de linhas
-texto_a_adicionar = "Este é o novo texto que será adicionado."
+texto_a_adicionar = codigodoarquivomainpython
 linhas.append(texto_a_adicionar + "\n")  # Adiciona uma quebra de linha no final do texto
 
 # Abre o arquivo no modo de escrita e escreve todas as linhas, incluindo o novo texto
-with open('seu_arquivo.txt', 'w') as file:
+with open('main.py, 'w') as file:
     file.writelines(linhas)
